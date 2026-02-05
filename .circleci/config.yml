@@ -11,8 +11,8 @@ workflows:
                 -main
 
 jobs:
-  build:
-    working_directory: ~/ExampleApplication
+  build:  
+    working_directory: ~/DevOpsSec_week3lab
     docker:
       - image: circleci/node:10.16.3
     steps:
